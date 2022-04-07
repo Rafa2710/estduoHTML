@@ -111,3 +111,51 @@ footer div {
   position: absolute;
   right: 50px;
 }
+/* ======== inicio da formatação css para a pagina home*/
+
+h2 {
+  font-family: "Lucida Sans";
+  font-size: 20pt;
+  border-bottom: 1px dashed darkred;
+  margin: 50px;
+}
+main p {
+  margin: 10px;
+  width: 80%;
+  /* para alinhar um objeto ao centro voce pode usar margin-left e margin-right: auto para os dois*/
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  font-family: "lucida sans";
+  font-size: 12pt;
+  /*espaçamento entre linhas com o comando line-height: */
+  line-height: 30px;
+}
+
+#imghome {
+  text-align: center;
+}
+
+#imghome img {
+  width: 350px; /*largura da imagem*/
+  height: 350px; /*altura da imagem*/
+  /*arredondar os cantos das imagens*/
+  border-radius: 300px;
+  /*vamos deixar as imagens um pouco opcas*/
+  opacity: 500px; /*colocar a imagem em 70% de opcidade*/
+  margin: 5px;
+  /*efeito de transição. isso fará com que a imagem tenha 
+  uma animação quando passar o mouse sobre ela */
+  transition: ease 1s;
+}
+#imghome img:hover {
+  opacity: 1;
+  /* width: 300px;
+  height: 300px; */
+
+   transform: scale(1.2);
+  /*transform: rotate(360deg); girar a imagem em 360graus
+} */
+/*=========================================================*/
+
+/* ===================== fim da home======================*/

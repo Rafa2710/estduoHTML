@@ -18,7 +18,7 @@ zero (0) e realizar o ajuste das caixas em html [
 header {
   height: 300px; /*aplicar altura ao cabeçalho*/
   /* aplicar imagem de fundo ao cabeçalho*/
-  background-image: url("https://upupa.com.br/wp-content/uploads/2019/05/slogan-para-cafeteria.jpg");
+  background-image: url("https://uploads.bemparana.com.br/upload/image/noticia/noticia_681711_img1_senac.jpg");
   /*aumentar o tamanho da imagem do fundo*/
   background-size: 60%;
   /*alterar a posição vertical da imagem*/
@@ -30,18 +30,18 @@ header {
 h1 {
   font-family: "times new roman";
   font-size: 60pt;
-  color: black;
+  color: rgb(6, 19, 133);
   /*vamos aplicar uma sombra: 
   -primeiro elemnto é a posição horizontal;
   -segundo elemento é a posição vertical da sombra;
   -terceiro elemento é o efeito de esfumaçada da sombra;
   -quarto elemnto é a cor*/
 
-  text-shadow: 2px 2px 5px white;
+  text-shadow: 2px 2px 5px rgb(245, 121, 6);
 }
 /*vamos fazer a formatação da barra de navegação*/
 nav {
-  background-color: rgb(216, 122, 45);
+  background-color: rgba(153, 134, 49, 0.514);
   padding: 10px;
   text-align: center;
 }
@@ -51,9 +51,63 @@ nav ul li {
   /*espaço entre os links*/
   margin: 5px;
 }
-nav ul li a{
-  calor: rgb(235, 34, 34)
+nav ul li a {
+  calor: rgb(235, 34, 34);
   font-family: arial;
   /*tirar o sublinhado*/
   text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: rgba(51, 48, 184, 0.925);
+  /*permitir com o que o rodape fique com o seu conteudo flexivel*/
+  display: flex;
+  /*dispor o conteudo em linha*/
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 210px;
+}
+
+footer div {
+  border: 1px solid rgb(24, 15, 1);
+  margin: 10px;
+  /*ajustar o conteudo ao centro com justify-content: e align-items: */
+  justify-content: center;
+  align-items: center;
+}
+
+footer div {
+  border: 1px;
+  margin: 10px;
+}
+
+#endereco {
+  font-family: arial;
+  font-size: 12pt;
+  color: rgb(240, 237, 245);
+  width: 300px;
+}
+
+#redes ul {
+  /*retirar as bolinhas de marcação*/
+  list-style: none;
+}
+/*vamos dispor a imagens das redes em linha com dispay inline-block*/
+#redes ul li {
+  display: inline-block;
+  margin: 10px;
+}
+#redes ul li a img {
+  width: 50px;
+  height: 50px;
+}
+
+#redes {
+  position: absolute;
+  right: 50px;
 }

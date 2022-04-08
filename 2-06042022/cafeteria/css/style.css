@@ -37,11 +37,11 @@ h1 {
   -terceiro elemento é o efeito de esfumaçada da sombra;
   -quarto elemnto é a cor*/
 
-  text-shadow: 2px 2px 5px rgb(245, 121, 6);
+  text-shadow: 2px 2px 5px #f57906;
 }
 /*vamos fazer a formatação da barra de navegação*/
 nav {
-  background-color: rgba(153, 134, 49, 0.514);
+  background-color: orangered;
   padding: 10px;
   text-align: center;
 }
@@ -52,7 +52,7 @@ nav ul li {
   margin: 5px;
 }
 nav ul li a {
-  color: rgb(235, 34, 34);
+  color: rgb(3, 37, 88);
   font-family: arial;
   /*tirar o sublinhado*/
   text-decoration: none;
@@ -60,6 +60,7 @@ nav ul li a {
 
 main {
   padding: 20px;
+  background-color: rgb(255, 255, 255);
 }
 
 footer {
@@ -89,7 +90,7 @@ footer div {
 #endereco {
   font-family: arial;
   font-size: 12pt;
-  color: rgb(240, 237, 245);
+  color: white
   width: 300px;
 }
 
@@ -191,3 +192,80 @@ main p {
 }
 
 /*=======================fim da pagina hisotira===*/
+
+/*======== inicio dos estilos para o cardápio======*/
+
+h3 {
+  /* converter as letras para maisculas*/
+  text-transform: uppercase; /*uppercaser->letras maiusculas*/
+  font-size: 20pt;
+  font-family: Verdana;
+  color: blue;
+  margin: 30px;
+  padding-left: 100px;
+}
+#linha {
+  display: flex;
+  /*centralizar a quebra de linha para os demias produtos que forem adicionados*/
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#linha #produto {
+  width: 40%;
+  margin: 10px;
+  /*determinar que o conteudo do produto sera flexivel*/
+  display: flex;
+  flex-direction: row;
+}
+
+#linha #produto #imgprod,
+#linha #produto #descricao {
+  width: 48%;
+  margin: 10px;
+  transition: ease 0.5;
+}
+
+#linha #produto #imgprod img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+
+h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20pt;
+  margin: 10px;
+}
+h5 {
+  font-family: "lucida sans";
+  font-weight: lighter; /*reitrar o negrito*/
+  color: black;
+  margin: 10px;
+}
+h6 {
+  font-family: "lucida sans";
+  color: blue;
+  font-size: 12pt;
+  margin: 10px;
+}
+
+#linha #produto:hover {
+  background-color: orangered;
+  color: black;
+  cursor: pointer;
+}
+
+/*==============inicio do estilo do mapa ==============*/
+#mapa{ 
+width:80%; 
+margin-left:auto;
+margin-right:auto;
+}
+
+#mapa iframe{
+  width:100%;
+  height: 500px;
+}
+/*============ fim da pagina cardápio==========*/

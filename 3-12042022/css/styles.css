@@ -1,14 +1,14 @@
 /* classes para alterar a cor do plano de fundo */
 .bgred{
-    background-color: red;
+    background-color: rgb(7, 139, 25);
 
 }
 
 .bgyellow{
-    background-color: yellow;
+    background-color: rgb(1, 8, 2);
 }
 .bgblack{
-    background-color: black;
+    background-color: rgb(1, 6, 17);
 }
 /* classes para a cor dos textos */
 .txtblue{
@@ -21,7 +21,7 @@
     color: rgb(238, 223, 17);
 }
 .txtblack{
-    color: rgb(19, 17, 17);
+    color: rgb(9, 228, 20);
 }
 .titulo1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;

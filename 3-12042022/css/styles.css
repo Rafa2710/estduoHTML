@@ -1,0 +1,86 @@
+/* classes para alterar a cor do plano de fundo */
+.bgred{
+    background-color: red;
+
+}
+
+.bgyellow{
+    background-color: yellow;
+}
+.bgblack{
+    background-color: black;
+}
+/* classes para a cor dos textos */
+.txtblue{
+    color: blue;
+}
+.txtwhite{
+    color: white;
+}
+.txtyellow{
+    color: rgb(238, 223, 17);
+}
+.txtblack{
+    color: rgb(19, 17, 17);
+}
+.titulo1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30pt;
+    font-weight: bold;
+}
+.titulo2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25pt;
+    font-weight: bold;
+}
+.titulo3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+/* calsses para formatar blocos de textos */
+.txt1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: justify;
+}
+.txt2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: justify;
+}
+.txt3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: justify;
+}
+/* classes para imagens */
+.img100{
+    width: 100%;
+    height: auto;
+}
+.img60{
+    width: 100%;
+    height: auto;
+}
+.img40{
+    width: 100%;
+    height: auto;
+}
+.anima{
+    transition: ease 0.5s;
+}
+.anima:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+    .imgcentro{
+        margin-left: 10;
+    }
+
+
+
